@@ -1,0 +1,50 @@
+baseURL = "https://ss-o.github.io/"
+languageCode = "en"
+title = "Salvydas Lukosius"
+theme = "github-style"
+googleAnalytics = ""
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Salvydas Lukosius"
+  description = "Personal Blog"
+  github = "ss-o"
+#  facebook = ""
+  twitter = "salldc"
+#  linkedin = "ss-o"
+#  instagram = ""
+#  tumblr = ""
+  email = "sall@w-ss.io"
+  url = "https://ss-o.github.io"
+  keywords = "personal,blog,tech"
+  rss = true
+  lastmod = true
+  userStatusEmoji = ""
+  favicon = "images/avatar.png"
+  location = "United Kingdom"
+  enableGitalk = false
+
+  [params.gitalk]
+    clientID = "Your client ID"
+    clientSecret = "Your client secret"
+    repo = ""
+    owner = ""
+    admin = ""
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/ss-o"
+  [[params.links]]
+    title = "Link2"
+    href = "https://ss-o.github.io"
+    icon = "https://github.com/ss-o.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
