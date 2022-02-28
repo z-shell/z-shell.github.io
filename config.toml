@@ -1,4 +1,4 @@
-baseURL = "https://z-shell.github.io/"
+baseURL = "https://digitalclouds.dev/"
 languageCode = "en"
 title = "Salvydas Lukosius"
 theme = "github-style"
@@ -38,9 +38,9 @@ pygmentsUseClasses = true
     createIssueManually = true
     distractionFreeMode = false
 
-  [[params.links]]
-    title = "Link"
-    href = "https://github.com/z-shell"
+#  [[params.links]]
+#    title = "Link"
+#    href = "https://github.com/z-shell"
   [[params.links]]
     title = "Link2"
     href = "https://z.digitalclouds.dev"
