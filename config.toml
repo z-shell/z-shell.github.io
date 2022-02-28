@@ -7,8 +7,8 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  author = "Salvydas Lukosius"
-  description = "Z-Shell Organization"
+  author = "❮ ZI ❯"
+  description = "Community Projects"
   github = "z-shell"
 #  facebook = ""
   twitter = "zshell_zi"
