@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ss-o.github.io/readme/</loc>
+    <loc>https://z-shell.github.io/readme/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://ss-o.github.io/categories/</loc>
+    <loc>https://z-shell.github.io/categories/</loc>
   </url><url>
-    <loc>https://ss-o.github.io/</loc>
+    <loc>https://z-shell.github.io/</loc>
   </url><url>
-    <loc>https://ss-o.github.io/tags/</loc>
+    <loc>https://z-shell.github.io/tags/</loc>
   </url>
 </urlset>
