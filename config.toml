@@ -1,24 +1,24 @@
-baseURL = "https://ss-o.github.io/"
+baseURL = "https://z-shell.github.io/"
 languageCode = "en"
 title = "Salvydas Lukosius"
 theme = "github-style"
-googleAnalytics = ""
+googleAnalytics = "G-MT10GVL59X"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
   author = "Salvydas Lukosius"
-  description = "Personal Blog"
-  github = "ss-o"
+  description = "Z-Shell Organization"
+  github = "z-shell"
 #  facebook = ""
-  twitter = "salldc"
+  twitter = "zshell_zi"
 #  linkedin = "ss-o"
 #  instagram = ""
 #  tumblr = ""
-  email = "sall@w-ss.io"
-  url = "https://ss-o.github.io"
-  keywords = "personal,blog,tech"
-  rss = true
+  email = "z-shell@digitalclouds.dev"
+  url = "https://z.digitalclouds.dev"
+  keywords = "A Swiss Army Knife for Zsh Unix shell"
+  rss = false
   lastmod = true
   userStatusEmoji = ""
   favicon = "images/avatar.png"
@@ -40,11 +40,11 @@ pygmentsUseClasses = true
 
   [[params.links]]
     title = "Link"
-    href = "https://github.com/ss-o"
+    href = "https://github.com/z-shell"
   [[params.links]]
     title = "Link2"
-    href = "https://ss-o.github.io"
-    icon = "https://github.com/ss-o.png"
+    href = "https://z.digitalclouds.dev"
+    icon = "https://github.com/z-shell.png"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
