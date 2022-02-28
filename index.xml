@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Salvydas Lukosius</title>
-    <link>https://z-shell.github.io/</link>
+    <link>https://digitalclouds.dev/</link>
     <description>Recent content on Salvydas Lukosius</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://z-shell.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://digitalclouds.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://z-shell.github.io/readme/</link>
+      <link>https://digitalclouds.dev/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://z-shell.github.io/readme/</guid>
+      <guid>https://digitalclouds.dev/readme/</guid>
       <description>Hello World!</description>
     </item>
     

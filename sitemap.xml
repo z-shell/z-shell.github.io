@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://z-shell.github.io/readme/</loc>
+    <loc>https://digitalclouds.dev/readme/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://z-shell.github.io/categories/</loc>
+    <loc>https://digitalclouds.dev/categories/</loc>
   </url><url>
-    <loc>https://z-shell.github.io/</loc>
+    <loc>https://digitalclouds.dev/</loc>
   </url><url>
-    <loc>https://z-shell.github.io/tags/</loc>
+    <loc>https://digitalclouds.dev/tags/</loc>
   </url>
 </urlset>
