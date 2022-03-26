@@ -43,7 +43,7 @@ distractionFreeMode = false
 #    href = "https://github.com/z-shell"
 [[params.links]]
 title = "ss-o"
-href = "https://github,com/ss-o
+href = "https://github,com/ss-o"
 icon = "https://github.com/ss-o.png"
 
 [frontmatter]
