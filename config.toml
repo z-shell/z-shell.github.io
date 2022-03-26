@@ -29,22 +29,22 @@ enableGitalk = true
 clientID = "db9f3795bad94803ab16"
 clientSecret = "e39f49813d624c008286c7316134a43b0c19614d"
 repo = "z-shell.github.io"
-owner = "z-shell/squadz"
+owner = "z-shell"
 admin = "ss-o"
 id = "location.pathname"
 labels = "gitalk"
 perPage = 15
 pagerDirection = "last"
-createIssueManually = true
+createIssueManually = false
 distractionFreeMode = false
 
 #  [[params.links]]
 #    title = "Link"
 #    href = "https://github.com/z-shell"
 [[params.links]]
-title = "Link2"
-href = "https://z.digitalclouds.dev"
-icon = "https://github.com/z-shell.png"
+title = "ss-o"
+href = "https://github,com/ss-o
+icon = "https://github.com/ss-o.png"
 
 [frontmatter]
 lastmod = ["lastmod", ":fileModTime", ":default"]
