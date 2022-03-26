@@ -1,50 +1,50 @@
 baseURL = "https://z-shell.digitalclouds.dev/"
 languageCode = "en"
-title = "Salvydas Lukosius"
+title = "❮ ZI ❯"
 theme = "github-style"
 googleAnalytics = "G-MT10GVL59X"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  author = "❮ ZI ❯"
-  description = "Community Projects"
-  github = "z-shell"
+author = "❮ ZI ❯"
+description = "Open-source society passionate about Zsh, privacy-respecting, and decentralized internet."
+github = "z-shell"
 #  facebook = ""
-  twitter = "zshell_zi"
+twitter = "zshell_zi"
 #  linkedin = "ss-o"
 #  instagram = ""
 #  tumblr = ""
-  email = "z-shell@digitalclouds.dev"
-  url = "https://z.digitalclouds.dev"
-  keywords = "A Swiss Army Knife for Zsh Unix shell"
-  rss = false
-  lastmod = true
-  userStatusEmoji = ""
-  favicon = "images/avatar.png"
-  location = "United Kingdom"
-  enableGitalk = true
+email = "z-shell@digitalclouds.dev"
+url = "https://z.digitalclouds.dev"
+keywords = "A Swiss Army Knife for Zsh Unix shell."
+rss = false
+lastmod = true
+userStatusEmoji = ""
+favicon = "images/avatar.png"
+location = "United Kingdom"
+enableGitalk = true
 
-  [params.gitalk]
-    clientID = "99d748c1fcccff9846b6"
-    clientSecret = "e8f9d8c738881f2277bfddda0398456d0325ed7b"
-    repo = "https://github.com/z-shell/z-shell.github.io"
-    owner = "ss-o"
-    admin = "ss-o"
-    id = "location.pathname"
-    labels = "gitalk"
-    perPage = 15
-    pagerDirection = "last"
-    createIssueManually = true
-    distractionFreeMode = false
+[params.gitalk]
+clientID = "99d748c1fcccff9846b6"
+clientSecret = "e8f9d8c738881f2277bfddda0398456d0325ed7b"
+repo = "https://github.com/z-shell/z-shell.github.io"
+owner = "ss-o"
+admin = "ss-o"
+id = "location.pathname"
+labels = "gitalk"
+perPage = 15
+pagerDirection = "last"
+createIssueManually = true
+distractionFreeMode = false
 
-  [[params.links]]
-    title = "Link"
-    href = "https://github.com/z-shell"
-  [[params.links]]
-    title = "Link2"
-    href = "https://z.digitalclouds.dev"
-    icon = "https://github.com/z-shell.png"
+#  [[params.links]]
+#    title = "Link"
+#    href = "https://github.com/z-shell"
+[[params.links]]
+title = "Link2"
+href = "https://z.digitalclouds.dev"
+icon = "https://github.com/z-shell.png"
 
 [frontmatter]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+lastmod = ["lastmod", ":fileModTime", ":default"]
