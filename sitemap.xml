@@ -2,13 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://digitalclouds.dev/readme/</loc>
+    <loc>https://z-shell.digitalclouds.dev/post/</loc>
+    <lastmod>2022-03-26T08:02:51+00:00</lastmod>
+  </url><url>
+    <loc>https://z-shell.digitalclouds.dev/post/the_post/</loc>
+    <lastmod>2022-03-26T08:02:51+00:00</lastmod>
+  </url><url>
+    <loc>https://z-shell.digitalclouds.dev/</loc>
+    <lastmod>2022-03-26T08:02:51+00:00</lastmod>
+  </url><url>
+    <loc>https://z-shell.digitalclouds.dev/readme/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://digitalclouds.dev/categories/</loc>
+    <loc>https://z-shell.digitalclouds.dev/categories/</loc>
   </url><url>
-    <loc>https://digitalclouds.dev/</loc>
-  </url><url>
-    <loc>https://digitalclouds.dev/tags/</loc>
+    <loc>https://z-shell.digitalclouds.dev/tags/</loc>
   </url>
 </urlset>
