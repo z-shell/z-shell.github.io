@@ -26,7 +26,7 @@ location = "United Kingdom"
 enableGitalk = true
 
 [params.gitalk]
-clientID = "99d748c1fcccff9846b6"
+clientID = "db9f3795bad94803ab16"
 clientSecret = "$CLIENT_SECRET"
 repo = "https://github.com/z-shell/z-shell.github.io"
 owner = "z-shell"
