@@ -28,7 +28,7 @@ enableGitalk = true
 [params.gitalk]
 clientID = "db9f3795bad94803ab16"
 clientSecret = "e39f49813d624c008286c7316134a43b0c19614d"
-repo = "https://github.com/z-shell/z-shell.github.io"
+repo = "z-shell.github.io"
 owner = "z-shell"
 admin = "ss-o"
 id = "location.pathname"
