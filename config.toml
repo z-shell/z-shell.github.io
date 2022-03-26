@@ -1,4 +1,4 @@
-baseURL = "https://digitalclouds.dev/"
+baseURL = "https://z-shell.digitalclouds.dev/"
 languageCode = "en"
 title = "Salvydas Lukosius"
 theme = "github-style"
@@ -23,14 +23,14 @@ pygmentsUseClasses = true
   userStatusEmoji = ""
   favicon = "images/avatar.png"
   location = "United Kingdom"
-  enableGitalk = false
+  enableGitalk = true
 
   [params.gitalk]
-    clientID = "Your client ID"
-    clientSecret = "Your client secret"
-    repo = ""
-    owner = ""
-    admin = ""
+    clientID = "99d748c1fcccff9846b6"
+    clientSecret = "e8f9d8c738881f2277bfddda0398456d0325ed7b"
+    repo = "https://github.com/z-shell/z-shell.github.io"
+    owner = "ss-o"
+    admin = "ss-o"
     id = "location.pathname"
     labels = "gitalk"
     perPage = 15
@@ -38,9 +38,9 @@ pygmentsUseClasses = true
     createIssueManually = true
     distractionFreeMode = false
 
-#  [[params.links]]
-#    title = "Link"
-#    href = "https://github.com/z-shell"
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/z-shell"
   [[params.links]]
     title = "Link2"
     href = "https://z.digitalclouds.dev"
