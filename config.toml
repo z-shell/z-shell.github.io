@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 [params]
 author = "❮ ZI ❯"
 description = "Open-source society passionate about Zsh, privacy-respecting, and decentralized internet."
-github = "z-shell"
+#  github = "z-shell"
 #  facebook = ""
 twitter = "zshell_zi"
 #  linkedin = "ss-o"
@@ -36,11 +36,15 @@ labels = "gitalk"
 perPage = 15
 pagerDirection = "last"
 createIssueManually = false
-distractionFreeMode = false
-
-#  [[params.links]]
-#    title = "Link"
-#    href = "https://github.com/z-shell"
+distractionFreeMode = true
+[[params.links]]
+ title = "Z-Shell"
+ href = "https://github.com/z-shell"
+icon = "https://github.com/z-shell.png"
+[[params.links]]
+title = "digital-clouds"
+href = "https://github,com/digital-clouds"
+icon = "https://github.com/digital-clouds.png"
 [[params.links]]
 title = "ss-o"
 href = "https://github,com/ss-o"
