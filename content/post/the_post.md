@@ -5,13 +5,6 @@ draft: false
 summary: "Fast and feature-rich plugin manager for Zsh"
 ---
 
-### Super fast user experience
-
-- [Turbo mode](https://z-shell.pages.dev/docs/getting_started/useage#turbo-mode) that yields 50-80%
-  [faster](https://github.com/z-shell/pm-perf-test) Zsh startup.
-
-<!--truncate-->
-
 ### Stay flexible {#stay-flexible}
 
 1. Run programs and scripts without adding anything to `$PATH`,
@@ -21,6 +14,8 @@ summary: "Fast and feature-rich plugin manager for Zsh"
    [$GEM_HOME](https://guides.rubygems.org/command-reference/#gem-environment),
    [$NODE_PATH](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders), and
    [$VIRTUALENV](https://docs.python.org/3/tutorial/venv.html) automatically set.
+
+<!--truncate-->
 
 3. Run programs, scripts, and functions with automatic `cd` into the plugin or snippet directory, plus also with
    automatic standard output & standard error redirecting.
