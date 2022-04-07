@@ -7,7 +7,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-author = "❮ ZI ❯"
+author = "❮ Z-Shell Community ❯"
 description = "Open-source society passionate about Zsh, privacy-respecting, and decentralized internet."
 #  github = "z-shell"
 #  facebook = ""
@@ -23,20 +23,20 @@ lastmod = true
 userStatusEmoji = ""
 favicon = "images/avatar.png"
 location = "United Kingdom"
-enableGitalk = true
+enableGitalk = false
 
 [params.gitalk]
-clientID = "db9f3795bad94803ab16"
-clientSecret = "e39f49813d624c008286c7316134a43b0c19614d"
-repo = "z-shell.github.io"
-owner = "z-shell"
-admin = "ss-o"
-id = "location.pathname"
-labels = "gitalk"
-perPage = 15
-pagerDirection = "last"
-createIssueManually = false
-distractionFreeMode = true
+#clientID = ""
+#clientSecret = ""
+#repo = "github.zshell.dev"
+#owner = "z-shell"
+#admin = "ss-o"
+#id = "location.pathname"
+#labels = "gitalk"
+#perPage = 15
+#pagerDirection = "last"
+#createIssueManually = false
+#distractionFreeMode = false
 [[params.links]]
  title = "Z-Shell"
  href = "https://github.com/z-shell"
