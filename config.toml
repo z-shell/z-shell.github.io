@@ -7,7 +7,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-author = "❮ Z-Shell Community ❯"
+author = "Z-Shell Community"
 description = "Open-source society passionate about Zsh, privacy-respecting, and decentralized internet."
 #  github = "z-shell"
 #  facebook = ""
