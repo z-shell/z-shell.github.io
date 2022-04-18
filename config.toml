@@ -1,8 +1,8 @@
-baseURL = "https://github.zshell.dev/"
+baseURL = "/"
 languageCode = "en"
 title = "❮ ZI ❯"
 theme = "github-style"
-googleAnalytics = "G-MT10GVL59X"
+#googleAnalytics = "G-MT10GVL59X"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
@@ -16,8 +16,8 @@ description = "Open-source society passionate about Zsh, privacy-respecting, and
 #  instagram = ""
 #  tumblr = ""
 email = "team@zshell.dev"
-url = "https://z.digitalclouds.dev"
-keywords = "A Swiss Army Knife for Zsh Unix shell."
+url = "https://github.zshell.dev"
+keywords = "A Swiss Army Knife for Zsh Unix shell, designed to glue everything together. A toolchain that works for you and not against you."
 rss = false
 lastmod = true
 userStatusEmoji = ""
@@ -40,15 +40,15 @@ enableGitalk = false
 [[params.links]]
  title = "Z-Shell"
  href = "https://github.com/z-shell"
-icon = "https://github.com/z-shell.png"
+ icon = "https://github.com/z-shell.png"
 [[params.links]]
-title = "digital-clouds"
-href = "https://github,com/digital-clouds"
-icon = "https://github.com/digital-clouds.png"
+ title = "digital-clouds"
+ href = "https://github,com/digital-clouds"
+ icon = "https://github.com/digital-clouds.png"
 [[params.links]]
-title = "ss-o"
-href = "https://github,com/ss-o"
-icon = "https://github.com/ss-o.png"
+ title = "ss-o"
+ href = "https://github,com/ss-o"
+ icon = "https://github.com/ss-o.png"
 
 [frontmatter]
-lastmod = ["lastmod", ":fileModTime", ":default"]
+ lastmod = ["lastmod", ":fileModTime", ":default"]
