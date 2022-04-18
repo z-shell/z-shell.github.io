@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://github.zshell.dev"
 languageCode = "en"
 title = "❮ ZI ❯"
 theme = "github-style"
@@ -11,7 +11,7 @@ author = "Z-Shell Community"
 description = "Open-source society passionate about Zsh, privacy-respecting, and decentralized internet."
 #  github = "z-shell"
 #  facebook = ""
-#twitter = "zshell_zi"
+#  twitter = "zshell_zi"
 #  linkedin = "ss-o"
 #  instagram = ""
 #  tumblr = ""
@@ -26,17 +26,17 @@ location = "United Kingdom"
 enableGitalk = false
 
 [params.gitalk]
-#clientID = ""
-#clientSecret = ""
-#repo = "github.zshell.dev"
-#owner = "z-shell"
-#admin = "ss-o"
-#id = "location.pathname"
-#labels = "gitalk"
-#perPage = 15
-#pagerDirection = "last"
-#createIssueManually = false
-#distractionFreeMode = false
+# clientID = ""
+# clientSecret = ""
+# repo = "github.zshell.dev"
+# owner = "z-shell"
+# admin = "ss-o"
+# id = "location.pathname"
+# labels = "gitalk"
+# perPage = 15
+# pagerDirection = "last"
+# createIssueManually = false
+# distractionFreeMode = false
 [[params.links]]
  title = "Z-Shell"
  href = "https://github.com/z-shell"
