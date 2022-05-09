@@ -41,8 +41,8 @@ jobs:
 #     deploy_key: ''
 #     external_repository: ''
 #     publish_branch: ''
-#     publish_dir: ''
+      publish_dir: 'public'
 #     destination_dir: ''
-#     cname: ''
+      cname: 'github.zshell.dev'
 #     keep_files: true
 #     allow_empty_commit: true
