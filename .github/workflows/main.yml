@@ -1,9 +1,9 @@
-name: GH Pages
+---
+name: "🚀 Deploy Call"
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+    tags: ["v*.*.*"]
   workflow_dispatch:
 
 env:
@@ -17,10 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true  
+          submodules: true
           fetch-depth: 0
-      - name: Trunk it
-        run: ./trunk check --ci-progress
       - name: Hugo setup
         uses: peaceiris/actions-hugo@v2.4.13
         with:
@@ -34,11 +32,17 @@ jobs:
             ${{ runner.os }}-hugomod-
       - name: Hugo Build
         run: hugo --minify
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          user_name: digital-teams[bot]
-          user_email: digital-teams@pm.me
+
+  deploy:
+    name: "🚀 Deploy"
+    uses: z-shell/.github/.github/workflows/deploy-call.yml@main
+    secrets:
+      personal_token: ${{ secrets.GH_PAT }}
+#     deploy_key: ''
+#     external_repository: ''
+#     publish_branch: ''
+#     publish_dir: ''
+#     destination_dir: ''
+#     cname: ''
+#     keep_files: true
+#     allow_empty_commit: true

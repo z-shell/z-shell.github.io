@@ -1,22 +1,6 @@
 <div class="footer container-xl width-full p-responsive">
   <div
-    class="
-      position-relative
-      d-flex
-      flex-row-reverse
-      flex-lg-row
-      flex-wrap
-      flex-lg-nowrap
-      flex-justify-center
-      flex-lg-justify-between
-      flex-sm-items-center
-      pt-6
-      pb-2
-      mt-6
-      f6
-      text-gray
-      border-top border-gray-light
-    "
+    class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light"
   >
     <a
       aria-label="Homepage"
@@ -38,22 +22,14 @@
       </svg>
     </a>
     <ul
-      class="
-        list-style-none
-        d-flex
-        flex-wrap
-        col-12
-        flex-justify-center flex-lg-justify-between
-        mb-2 mb-lg-0
-      "
+      class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0"
     >
       {{ if .Site.Copyright }}
       <li class="mr-3 mr-lg-0">{{ .Site.Copyright | safeHTML }}</li>
       {{ else }}
       <li class="mr-3 mr-lg-0">
-        .<a href="https://github.com/digital-clouds"><b>Digital Clouds</b></a
-        >. | .<a href="https://github.com/z-shell"><b>Z-Shell</b></a
-        >.
+        <a href="https://github.com/digital-clouds"><b>Digital Clouds</b></a> |
+        <a href="https://github.com/z-shell"><b>Z-Shell</b></a>
       </li>
       {{ end }}
     </ul>
