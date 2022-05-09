@@ -38,11 +38,7 @@ jobs:
     uses: z-shell/.github/.github/workflows/deploy-call.yml@main
     secrets:
       personal_token: ${{ secrets.GH_PAT }}
-#     deploy_key: ''
-#     external_repository: ''
-#     publish_branch: ''
+    with:
+      publish_branch: 'gh-pages'
       publish_dir: 'public'
-#     destination_dir: ''
       cname: 'github.zshell.dev'
-#     keep_files: true
-#     allow_empty_commit: true
