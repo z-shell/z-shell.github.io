@@ -1,52 +1,52 @@
-'0':
+"0":
   changes:
     - 6.0.0-beta1
-  label: '0'
+  label: "0"
   search:
     terms: []
   styles:
     - solid
-  unicode: '30'
+  unicode: "30"
   voted: false
-'1':
+"1":
   changes:
     - 6.0.0-beta1
-  label: '1'
+  label: "1"
   search:
     terms: []
   styles:
     - solid
-  unicode: '31'
+  unicode: "31"
   voted: false
-'2':
+"2":
   changes:
     - 6.0.0-beta1
-  label: '2'
+  label: "2"
   search:
     terms: []
   styles:
     - solid
-  unicode: '32'
+  unicode: "32"
   voted: false
-'3':
+"3":
   changes:
     - 6.0.0-beta1
-  label: '3'
+  label: "3"
   search:
     terms: []
   styles:
     - solid
-  unicode: '33'
+  unicode: "33"
   voted: false
-'4':
+"4":
   changes:
     - 6.0.0-beta1
-  label: '4'
+  label: "4"
   search:
     terms: []
   styles:
     - solid
-  unicode: '34'
+  unicode: "34"
   voted: false
 42-group:
   aliases:
@@ -62,15 +62,15 @@
     - brands
   unicode: e080
   voted: false
-'5':
+"5":
   changes:
     - 6.0.0-beta1
-  label: '5'
+  label: "5"
   search:
     terms: []
   styles:
     - solid
-  unicode: '35'
+  unicode: "35"
   voted: false
 500px:
   changes:
@@ -83,51 +83,51 @@
     - brands
   unicode: f26e
   voted: false
-'6':
+"6":
   changes:
     - 6.0.0-beta1
-  label: '6'
+  label: "6"
   search:
     terms: []
   styles:
     - solid
-  unicode: '36'
+  unicode: "36"
   voted: false
-'7':
+"7":
   changes:
     - 6.0.0-beta1
-  label: '7'
+  label: "7"
   search:
     terms: []
   styles:
     - solid
-  unicode: '37'
+  unicode: "37"
   voted: false
-'8':
+"8":
   changes:
     - 6.0.0-beta1
-  label: '8'
+  label: "8"
   search:
     terms: []
   styles:
     - solid
-  unicode: '38'
+  unicode: "38"
   voted: false
-'9':
+"9":
   changes:
     - 6.0.0-beta1
-  label: '9'
+  label: "9"
   search:
     terms: []
   styles:
     - solid
-  unicode: '39'
+  unicode: "39"
   voted: false
 a:
   aliases:
     unicodes:
       composite:
-        - '61'
+        - "61"
   changes:
     - 6.0.0-beta1
   label: A
@@ -135,7 +135,7 @@ a:
     terms: []
   styles:
     - solid
-  unicode: '41'
+  unicode: "41"
   voted: false
 accessible-icon:
   aliases:
@@ -375,7 +375,7 @@ anchor:
   aliases:
     unicodes:
       composite:
-        - '2693'
+        - "2693"
       secondary:
         - 10f13d
   changes:
@@ -459,7 +459,7 @@ angle-down:
   aliases:
     unicodes:
       composite:
-        - '2304'
+        - "2304"
       secondary:
         - 10f107
   changes:
@@ -477,7 +477,7 @@ angle-left:
   aliases:
     unicodes:
       composite:
-        - '2039'
+        - "2039"
       secondary:
         - 10f104
   changes:
@@ -515,7 +515,7 @@ angle-up:
   aliases:
     unicodes:
       composite:
-        - '2303'
+        - "2303"
       secondary:
         - 10f106
   changes:
@@ -630,7 +630,7 @@ ankh:
   aliases:
     unicodes:
       composite:
-        - '2625'
+        - "2625"
       secondary:
         - 10f644
   changes:
@@ -736,7 +736,7 @@ arrow-down:
   aliases:
     unicodes:
       composite:
-        - '2193'
+        - "2193"
       secondary:
         - 10f063
   changes:
@@ -907,7 +907,7 @@ arrow-left:
   aliases:
     unicodes:
       composite:
-        - '2190'
+        - "2190"
       secondary:
         - 10f060
   changes:
@@ -963,7 +963,7 @@ arrow-right:
   aliases:
     unicodes:
       composite:
-        - '2192'
+        - "2192"
       secondary:
         - 10f061
   changes:
@@ -1173,7 +1173,7 @@ arrow-up:
   aliases:
     unicodes:
       composite:
-        - '2191'
+        - "2191"
       secondary:
         - 10f062
   changes:
@@ -1575,7 +1575,7 @@ asterisk:
   aliases:
     unicodes:
       composite:
-        - '2731'
+        - "2731"
         - f069
       primary:
         - f069
@@ -1596,7 +1596,7 @@ asterisk:
 asymmetrik:
   changes:
     - 5.0.0
-  label: 'Asymmetrik, Ltd.'
+  label: "Asymmetrik, Ltd."
   search:
     terms: []
   styles:
@@ -1621,7 +1621,7 @@ at:
     terms: []
   styles:
     - solid
-  unicode: '40'
+  unicode: "40"
   voted: false
 atlassian:
   changes:
@@ -1751,7 +1751,7 @@ b:
   aliases:
     unicodes:
       composite:
-        - '62'
+        - "62"
   changes:
     - 6.0.0-beta1
   label: B
@@ -1759,7 +1759,7 @@ b:
     terms: []
   styles:
     - solid
-  unicode: '42'
+  unicode: "42"
   voted: false
 baby:
   aliases:
@@ -1876,7 +1876,7 @@ bacteria:
   aliases:
     unicodes:
       secondary:
-        - '10e059'
+        - "10e059"
   changes:
     - 5.13.0
     - 5.13.1
@@ -2525,7 +2525,7 @@ biohazard:
   aliases:
     unicodes:
       composite:
-        - '2623'
+        - "2623"
       secondary:
         - 10f780
   changes:
@@ -3830,7 +3830,7 @@ c:
   aliases:
     unicodes:
       composite:
-        - '63'
+        - "63"
   changes:
     - 6.0.0-beta1
   label: C
@@ -3838,7 +3838,7 @@ c:
     terms: []
   styles:
     - solid
-  unicode: '43'
+  unicode: "43"
   voted: false
 cake-candles:
   aliases:
@@ -4895,8 +4895,8 @@ check:
   aliases:
     unicodes:
       composite:
-        - '2714'
-        - '2713'
+        - "2714"
+        - "2713"
       secondary:
         - 10f00c
   changes:
@@ -5127,7 +5127,7 @@ chevron-left:
   aliases:
     unicodes:
       composite:
-        - '2329'
+        - "2329"
       secondary:
         - 10f053
   changes:
@@ -5768,7 +5768,7 @@ circle-radiation:
       - radiation-alt
     unicodes:
       composite:
-        - '2622'
+        - "2622"
       secondary:
         - 10f7ba
   changes:
@@ -6080,7 +6080,7 @@ cloud:
   aliases:
     unicodes:
       composite:
-        - '2601'
+        - "2601"
       secondary:
         - 10f0c2
   changes:
@@ -7296,7 +7296,7 @@ d:
   aliases:
     unicodes:
       composite:
-        - '64'
+        - "64"
   changes:
     - 6.0.0-beta1
   label: D
@@ -7304,7 +7304,7 @@ d:
     terms: []
   styles:
     - solid
-  unicode: '44'
+  unicode: "44"
   voted: false
 d-and-d:
   changes:
@@ -7493,7 +7493,7 @@ dharmachakra:
   aliases:
     unicodes:
       composite:
-        - '2638'
+        - "2638"
       secondary:
         - 10f655
   changes:
@@ -7568,7 +7568,7 @@ diamond:
   aliases:
     unicodes:
       composite:
-        - '2666'
+        - "2666"
       secondary:
         - 10f219
   changes:
@@ -7665,7 +7665,7 @@ dice-five:
   aliases:
     unicodes:
       composite:
-        - '2684'
+        - "2684"
       secondary:
         - 10f523
   changes:
@@ -7682,7 +7682,7 @@ dice-four:
   aliases:
     unicodes:
       composite:
-        - '2683'
+        - "2683"
       secondary:
         - 10f524
   changes:
@@ -7699,7 +7699,7 @@ dice-one:
   aliases:
     unicodes:
       composite:
-        - '2680'
+        - "2680"
       secondary:
         - 10f525
   changes:
@@ -7716,7 +7716,7 @@ dice-six:
   aliases:
     unicodes:
       composite:
-        - '2685'
+        - "2685"
       secondary:
         - 10f526
   changes:
@@ -7733,7 +7733,7 @@ dice-three:
   aliases:
     unicodes:
       composite:
-        - '2682'
+        - "2682"
       secondary:
         - 10f527
   changes:
@@ -7750,7 +7750,7 @@ dice-two:
   aliases:
     unicodes:
       composite:
-        - '2681'
+        - "2681"
       secondary:
         - 10f528
   changes:
@@ -7838,7 +7838,7 @@ divide:
   aliases:
     unicodes:
       composite:
-        - '2797'
+        - "2797"
         - f7
       secondary:
         - 10f529
@@ -7922,7 +7922,7 @@ dollar-sign:
         - f155
       secondary:
         - 10f155
-        - '1024'
+        - "1024"
   changes:
     - 3.2.0
     - 5.0.0
@@ -7936,7 +7936,7 @@ dollar-sign:
     terms: []
   styles:
     - solid
-  unicode: '24'
+  unicode: "24"
   voted: false
 dolly:
   aliases:
@@ -8320,7 +8320,7 @@ e:
   aliases:
     unicodes:
       composite:
-        - '65'
+        - "65"
   changes:
     - 6.0.0-beta1
   label: E
@@ -8328,7 +8328,7 @@ e:
     terms: []
   styles:
     - solid
-  unicode: '45'
+  unicode: "45"
   voted: false
 ear-deaf:
   aliases:
@@ -8645,7 +8645,7 @@ envelope:
       composite:
         - 1f582
         - f003
-        - '2709'
+        - "2709"
       secondary:
         - 10f0e0
   changes:
@@ -8861,14 +8861,14 @@ exclamation:
   aliases:
     unicodes:
       composite:
-        - '2755'
-        - '2757'
+        - "2755"
+        - "2757"
         - f12a
       primary:
         - f12a
       secondary:
         - 10f12a
-        - '1021'
+        - "1021"
   changes:
     - 3.1.0
     - 5.0.0
@@ -8880,7 +8880,7 @@ exclamation:
     terms: []
   styles:
     - solid
-  unicode: '21'
+  unicode: "21"
   voted: false
 expand:
   aliases:
@@ -9002,7 +9002,7 @@ f:
   aliases:
     unicodes:
       composite:
-        - '66'
+        - "66"
   changes:
     - 6.0.0-beta1
   label: F
@@ -9010,7 +9010,7 @@ f:
     terms: []
   styles:
     - solid
-  unicode: '46'
+  unicode: "46"
   voted: false
 face-angry:
   aliases:
@@ -9085,7 +9085,7 @@ face-frown:
       - frown
     unicodes:
       composite:
-        - '2639'
+        - "2639"
       secondary:
         - 10f119
   changes:
@@ -9919,7 +9919,7 @@ faucet:
   aliases:
     unicodes:
       secondary:
-        - '10e005'
+        - "10e005"
   changes:
     - 5.12.0
     - 5.14.0
@@ -9937,7 +9937,7 @@ faucet-drip:
       composite:
         - 1f6b0
       secondary:
-        - '10e006'
+        - "10e006"
   changes:
     - 5.12.0
     - 5.14.0
@@ -11228,7 +11228,7 @@ forward:
   aliases:
     unicodes:
       composite:
-        - '23e9'
+        - "23e9"
       secondary:
         - 10f04e
   changes:
@@ -11380,7 +11380,7 @@ g:
   aliases:
     unicodes:
       composite:
-        - '67'
+        - "67"
   changes:
     - 6.0.0-beta1
   label: G
@@ -11388,7 +11388,7 @@ g:
     terms: []
   styles:
     - solid
-  unicode: '47'
+  unicode: "47"
   voted: false
 galactic-republic:
   changes:
@@ -11561,7 +11561,7 @@ gear:
       - cog
     unicodes:
       composite:
-        - '2699'
+        - "2699"
       secondary:
         - 10f013
   changes:
@@ -12210,7 +12210,7 @@ grip-vertical:
 gripfire:
   changes:
     - 5.0.0
-  label: 'Gripfire, Inc.'
+  label: "Gripfire, Inc."
   search:
     terms: []
   styles:
@@ -12298,7 +12298,7 @@ h:
   aliases:
     unicodes:
       composite:
-        - '68'
+        - "68"
   changes:
     - 6.0.0-beta1
   label: H
@@ -12306,7 +12306,7 @@ h:
     terms: []
   styles:
     - solid
-  unicode: '48'
+  unicode: "48"
   voted: false
 hacker-news:
   changes:
@@ -12953,7 +12953,7 @@ handshake-slash:
   aliases:
     unicodes:
       secondary:
-        - '10e060'
+        - "10e060"
   changes:
     - 5.13.0
     - 5.14.0
@@ -13023,7 +13023,7 @@ hashtag:
         - f292
       secondary:
         - 10f292
-        - '1023'
+        - "1023"
   changes:
     - 4.5.0
     - 5.0.0
@@ -13033,7 +13033,7 @@ hashtag:
     terms: []
   styles:
     - solid
-  unicode: '23'
+  unicode: "23"
   voted: false
 hat-cowboy:
   aliases:
@@ -13085,7 +13085,7 @@ head-side-cough:
   aliases:
     unicodes:
       secondary:
-        - '10e061'
+        - "10e061"
   changes:
     - 5.13.0
     - 5.14.0
@@ -13101,7 +13101,7 @@ head-side-cough-slash:
   aliases:
     unicodes:
       secondary:
-        - '10e062'
+        - "10e062"
   changes:
     - 5.13.0
     - 5.14.0
@@ -13117,7 +13117,7 @@ head-side-mask:
   aliases:
     unicodes:
       secondary:
-        - '10e063'
+        - "10e063"
   changes:
     - 5.13.0
     - 5.14.0
@@ -13133,7 +13133,7 @@ head-side-virus:
   aliases:
     unicodes:
       secondary:
-        - '10e064'
+        - "10e064"
   changes:
     - 5.13.0
     - 5.14.0
@@ -13228,9 +13228,9 @@ heart:
         - 1f90d
         - 1f90e
         - 1f9e1
-        - '2764'
+        - "2764"
         - f08a
-        - '2665'
+        - "2665"
       secondary:
         - 10f004
   changes:
@@ -13868,7 +13868,7 @@ house-chimney-user:
   aliases:
     unicodes:
       secondary:
-        - '10e065'
+        - "10e065"
   changes:
     - 5.13.0
     - 5.14.0
@@ -13989,7 +13989,7 @@ house-laptop:
       - laptop-house
     unicodes:
       secondary:
-        - '10e066'
+        - "10e066"
   changes:
     - 5.13.0
     - 5.14.0
@@ -14069,7 +14069,7 @@ house-signal:
   aliases:
     unicodes:
       secondary:
-        - '10e012'
+        - "10e012"
   changes:
     - 5.12.0
     - 5.14.0
@@ -14184,7 +14184,7 @@ i:
   aliases:
     unicodes:
       composite:
-        - '69'
+        - "69"
   changes:
     - 6.0.0-beta1
   label: I
@@ -14192,7 +14192,7 @@ i:
     terms: []
   styles:
     - solid
-  unicode: '49'
+  unicode: "49"
   voted: false
 i-cursor:
   aliases:
@@ -14923,7 +14923,7 @@ keyboard:
   aliases:
     unicodes:
       composite:
-        - '2328'
+        - "2328"
       secondary:
         - 10f11c
   changes:
@@ -15313,7 +15313,7 @@ left-right:
       - arrows-alt-h
     unicodes:
       composite:
-        - '2194'
+        - "2194"
       secondary:
         - 10f337
   changes:
@@ -15802,7 +15802,7 @@ lungs-virus:
   aliases:
     unicodes:
       secondary:
-        - '10e067'
+        - "10e067"
   changes:
     - 5.13.0
     - 5.14.0
@@ -16123,7 +16123,7 @@ mars:
   aliases:
     unicodes:
       composite:
-        - '2642'
+        - "2642"
       secondary:
         - 10f222
   changes:
@@ -16579,7 +16579,7 @@ meteor:
   aliases:
     unicodes:
       composite:
-        - '2604'
+        - "2604"
       secondary:
         - 10f753
   changes:
@@ -16752,9 +16752,9 @@ minus:
       - subtract
     unicodes:
       composite:
-        - '2212'
-        - '2796'
-        - '2013'
+        - "2212"
+        - "2796"
+        - "2013"
       secondary:
         - 10f068
   changes:
@@ -17238,7 +17238,7 @@ mug-hot:
   aliases:
     unicodes:
       composite:
-        - '2615'
+        - "2615"
       secondary:
         - 10f7b6
   changes:
@@ -17289,14 +17289,14 @@ music:
     - solid
   unicode: f001
   voted: false
-'n':
+"n":
   aliases:
     unicodes:
       composite:
         - 6e
   changes:
     - 6.0.0-beta1
-  label: 'N'
+  label: "N"
   search:
     terms: []
   styles:
@@ -17770,7 +17770,7 @@ p:
   aliases:
     unicodes:
       composite:
-        - '70'
+        - "70"
   changes:
     - 6.0.0-beta1
   label: P
@@ -17778,7 +17778,7 @@ p:
     terms: []
   styles:
     - solid
-  unicode: '50'
+  unicode: "50"
   voted: false
 padlet:
   changes:
@@ -18146,7 +18146,7 @@ pen-fancy:
     unicodes:
       composite:
         - 1f58b
-        - '2712'
+        - "2712"
       secondary:
         - 10f5ac
   changes:
@@ -18164,7 +18164,7 @@ pen-nib:
   aliases:
     unicodes:
       composite:
-        - '2711'
+        - "2711"
       secondary:
         - 10f5ad
   changes:
@@ -18247,7 +18247,7 @@ people-arrows-left-right:
       - people-arrows
     unicodes:
       secondary:
-        - '10e068'
+        - "10e068"
   changes:
     - 5.13.0
     - 5.14.0
@@ -18366,7 +18366,7 @@ percent:
         - f295
       secondary:
         - 10f541
-        - '1025'
+        - "1025"
         - 10f295
   changes:
     - 4.5.0
@@ -18377,7 +18377,7 @@ percent:
     terms: []
   styles:
     - solid
-  unicode: '25'
+  unicode: "25"
   voted: true
 periscope:
   changes:
@@ -19412,7 +19412,7 @@ plane-slash:
   aliases:
     unicodes:
       secondary:
-        - '10e069'
+        - "10e069"
   changes:
     - 5.13.0
     - 5.14.0
@@ -19575,7 +19575,7 @@ plus:
       - add
     unicodes:
       composite:
-        - '2795'
+        - "2795"
         - f067
       primary:
         - f067
@@ -19742,7 +19742,7 @@ print:
       composite:
         - 1f5a8
         - 1f5b6
-        - '2399'
+        - "2399"
       secondary:
         - 10f02f
   changes:
@@ -19843,7 +19843,7 @@ q:
   aliases:
     unicodes:
       composite:
-        - '71'
+        - "71"
   changes:
     - 6.0.0-beta1
   label: Q
@@ -19851,7 +19851,7 @@ q:
     terms: []
   styles:
     - solid
-  unicode: '51'
+  unicode: "51"
   voted: false
 qq:
   changes:
@@ -19886,8 +19886,8 @@ question:
   aliases:
     unicodes:
       composite:
-        - '2753'
-        - '2754'
+        - "2753"
+        - "2754"
         - f128
       primary:
         - f128
@@ -19974,7 +19974,7 @@ r:
   aliases:
     unicodes:
       composite:
-        - '72'
+        - "72"
   changes:
     - 6.0.0-beta1
   label: R
@@ -19982,7 +19982,7 @@ r:
     terms: []
   styles:
     - solid
-  unicode: '52'
+  unicode: "52"
   voted: false
 r-project:
   changes:
@@ -20226,7 +20226,7 @@ recycle:
       composite:
         - 267a
         - 267b
-        - '2672'
+        - "2672"
       secondary:
         - 10f1b8
   changes:
@@ -20956,7 +20956,7 @@ s:
   aliases:
     unicodes:
       composite:
-        - '73'
+        - "73"
   changes:
     - 6.0.0-beta1
   label: S
@@ -20964,7 +20964,7 @@ s:
     terms: []
   styles:
     - solid
-  unicode: '53'
+  unicode: "53"
   voted: false
 sack-dollar:
   aliases:
@@ -21084,7 +21084,7 @@ scale-balanced:
       - balance-scale
     unicodes:
       composite:
-        - '2696'
+        - "2696"
       secondary:
         - 10f24e
   changes:
@@ -21223,9 +21223,9 @@ scissors:
       - cut
     unicodes:
       composite:
-        - '2702'
-        - '2704'
-        - '2700'
+        - "2702"
+        - "2704"
+        - "2700"
       secondary:
         - 10f0c4
   changes:
@@ -21739,7 +21739,7 @@ shop-slash:
       - store-alt-slash
     unicodes:
       secondary:
-        - '10e070'
+        - "10e070"
   changes:
     - 5.13.0
     - 5.14.0
@@ -22053,7 +22053,7 @@ skull-crossbones:
     unicodes:
       composite:
         - 1f571
-        - '2620'
+        - "2620"
       secondary:
         - 10f714
   changes:
@@ -22240,8 +22240,8 @@ snowflake:
   aliases:
     unicodes:
       composite:
-        - '2746'
-        - '2744'
+        - "2746"
+        - "2744"
       secondary:
         - 10f2dc
   changes:
@@ -22262,7 +22262,7 @@ snowman:
     unicodes:
       composite:
         - 26c4
-        - '2603'
+        - "2603"
       secondary:
         - 10f7d0
   changes:
@@ -22736,9 +22736,9 @@ square-check:
       - check-square
     unicodes:
       composite:
-        - '2705'
+        - "2705"
         - f046
-        - '2611'
+        - "2611"
       secondary:
         - 10f14a
   changes:
@@ -23083,7 +23083,7 @@ square-up-right:
       - external-link-square-alt
     unicodes:
       composite:
-        - '2197'
+        - "2197"
       secondary:
         - 10f360
   changes:
@@ -23297,7 +23297,7 @@ star-of-david:
   aliases:
     unicodes:
       composite:
-        - '2721'
+        - "2721"
       secondary:
         - 10f69a
   changes:
@@ -23500,7 +23500,7 @@ store-slash:
   aliases:
     unicodes:
       secondary:
-        - '10e071'
+        - "10e071"
   changes:
     - 5.13.0
     - 5.14.0
@@ -23705,7 +23705,7 @@ sun:
   aliases:
     unicodes:
       composite:
-        - '2600'
+        - "2600"
       secondary:
         - 10f185
   changes:
@@ -23858,7 +23858,7 @@ t:
   aliases:
     unicodes:
       composite:
-        - '74'
+        - "74"
   changes:
     - 6.0.0-beta1
   label: T
@@ -23866,7 +23866,7 @@ t:
     terms: []
   styles:
     - solid
-  unicode: '54'
+  unicode: "54"
   voted: false
 table:
   aliases:
@@ -24248,7 +24248,7 @@ temperature-arrow-up:
       - temperature-up
     unicodes:
       secondary:
-        - '10e040'
+        - "10e040"
   changes:
     - 5.12.0
     - 5.14.0
@@ -24814,7 +24814,7 @@ toilet-paper-slash:
   aliases:
     unicodes:
       secondary:
-        - '10e072'
+        - "10e072"
   changes:
     - 5.13.0
     - 5.14.0
@@ -24884,7 +24884,7 @@ torii-gate:
   aliases:
     unicodes:
       composite:
-        - '26e9'
+        - "26e9"
       secondary:
         - 10f6a1
   changes:
@@ -24987,7 +24987,7 @@ trademark:
   aliases:
     unicodes:
       composite:
-        - '2122'
+        - "2122"
       secondary:
         - 10f25c
   changes:
@@ -25023,7 +25023,7 @@ trailer:
   aliases:
     unicodes:
       secondary:
-        - '10e041'
+        - "10e041"
   changes:
     - 5.12.0
     - 5.14.0
@@ -25562,7 +25562,7 @@ turn-down:
       - level-down-alt
     unicodes:
       composite:
-        - '2935'
+        - "2935"
       secondary:
         - 10f3be
   changes:
@@ -25581,7 +25581,7 @@ turn-up:
       - level-up-alt
     unicodes:
       composite:
-        - '2934'
+        - "2934"
       secondary:
         - 10f3bf
   changes:
@@ -25668,7 +25668,7 @@ u:
   aliases:
     unicodes:
       composite:
-        - '75'
+        - "75"
   changes:
     - 6.0.0-beta1
   label: U
@@ -25676,7 +25676,7 @@ u:
     terms: []
   styles:
     - solid
-  unicode: '55'
+  unicode: "55"
   voted: false
 uber:
   changes:
@@ -25883,7 +25883,7 @@ up-down:
     unicodes:
       composite:
         - 2b0d
-        - '2195'
+        - "2195"
       secondary:
         - 10f338
   changes:
@@ -26477,7 +26477,7 @@ users-slash:
   aliases:
     unicodes:
       secondary:
-        - '10e073'
+        - "10e073"
   changes:
     - 5.13.0
     - 5.14.0
@@ -26545,7 +26545,7 @@ v:
   aliases:
     unicodes:
       composite:
-        - '76'
+        - "76"
   changes:
     - 6.0.0-beta1
   label: V
@@ -26553,7 +26553,7 @@ v:
     terms: []
   styles:
     - solid
-  unicode: '56'
+  unicode: "56"
   voted: false
 vaadin:
   changes:
@@ -26617,7 +26617,7 @@ venus:
   aliases:
     unicodes:
       composite:
-        - '2640'
+        - "2640"
       secondary:
         - 10f221
   changes:
@@ -26673,7 +26673,7 @@ vest:
   aliases:
     unicodes:
       secondary:
-        - '10e085'
+        - "10e085"
   changes:
     - 5.15.0
     - 5.15.1
@@ -26689,7 +26689,7 @@ vest-patches:
   aliases:
     unicodes:
       secondary:
-        - '10e086'
+        - "10e086"
   changes:
     - 5.15.0
     - 5.15.1
@@ -26895,7 +26895,7 @@ virus:
   aliases:
     unicodes:
       secondary:
-        - '10e074'
+        - "10e074"
   changes:
     - 5.13.0
     - 5.14.0
@@ -26933,7 +26933,7 @@ virus-slash:
   aliases:
     unicodes:
       secondary:
-        - '10e075'
+        - "10e075"
   changes:
     - 5.13.0
     - 5.14.0
@@ -26949,7 +26949,7 @@ viruses:
   aliases:
     unicodes:
       secondary:
-        - '10e076'
+        - "10e076"
   changes:
     - 5.13.0
     - 5.14.0
@@ -27144,7 +27144,7 @@ w:
   aliases:
     unicodes:
       composite:
-        - '77'
+        - "77"
   changes:
     - 6.0.0-beta1
   label: W
@@ -27152,7 +27152,7 @@ w:
     terms: []
   styles:
     - solid
-  unicode: '57'
+  unicode: "57"
   voted: false
 walkie-talkie:
   aliases:
@@ -27837,7 +27837,7 @@ x:
   aliases:
     unicodes:
       composite:
-        - '78'
+        - "78"
   changes:
     - 6.0.0-beta1
   label: X
@@ -27845,7 +27845,7 @@ x:
     terms: []
   styles:
     - solid
-  unicode: '58'
+  unicode: "58"
   voted: false
 x-ray:
   aliases:
@@ -27905,8 +27905,8 @@ xmark:
     unicodes:
       composite:
         - 1f5d9
-        - '2715'
-        - '2716'
+        - "2715"
+        - "2716"
         - 274c
         - d7
       secondary:
@@ -27935,19 +27935,19 @@ xmarks-lines:
     - solid
   unicode: e59a
   voted: false
-'y':
+"y":
   aliases:
     unicodes:
       composite:
-        - '79'
+        - "79"
   changes:
     - 6.0.0-beta1
-  label: 'Y'
+  label: "Y"
   search:
     terms: []
   styles:
     - solid
-  unicode: '59'
+  unicode: "59"
   voted: false
 y-combinator:
   changes:

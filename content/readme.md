@@ -5,4 +5,3 @@
 ![Followup](https://github.zshell.dev/.github/plugin/followup/followup.svg#center)
 ![Tweets](https://github.zshell.dev/.github/plugin/tweets/tweets.svg#center)
 ![PageSpeed](https://github.zshell.dev/.github/plugin/pagespeed/detailed.svg#center)
-

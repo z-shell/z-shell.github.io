@@ -39,6 +39,6 @@ jobs:
     secrets:
       personal_token: ${{ secrets.GH_PAT }}
     with:
-      publish_branch: 'gh-pages'
-      publish_dir: 'public'
-      cname: 'github.zshell.dev'
+      publish_branch: "gh-pages"
+      publish_dir: "public"
+      cname: "github.zshell.dev"

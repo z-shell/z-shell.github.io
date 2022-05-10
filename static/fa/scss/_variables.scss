@@ -1,52 +1,52 @@
 // variables
 // --------------------------
 
-$fa-css-prefix          : fa !default;
-$fa-style               : 900 !default;
-$fa-style-family        : "Font Awesome 6 Free" !default;
+$fa-css-prefix: fa !default;
+$fa-style: 900 !default;
+$fa-style-family: "Font Awesome 6 Free" !default;
 
-$fa-display             : inline-block !default;
+$fa-display: inline-block !default;
 
-$fa-fw-width            : fa-divide(20em, 16);
-$fa-inverse             : #fff !default;
+$fa-fw-width: fa-divide(20em, 16);
+$fa-inverse: #fff !default;
 
-$fa-border-color        : #eee !default;
-$fa-border-padding      : .2em .25em .15em !default;
-$fa-border-radius       : .1em !default;
-$fa-border-style        : solid !default;
-$fa-border-width        : .08em !default;
+$fa-border-color: #eee !default;
+$fa-border-padding: 0.2em 0.25em 0.15em !default;
+$fa-border-radius: 0.1em !default;
+$fa-border-style: solid !default;
+$fa-border-width: 0.08em !default;
 
-$fa-size-scale-2xs      : 10 !default;
-$fa-size-scale-xs       : 12 !default;
-$fa-size-scale-sm       : 14 !default;
-$fa-size-scale-base     : 16 !default;
-$fa-size-scale-lg       : 20 !default;
-$fa-size-scale-xl       : 24 !default;
-$fa-size-scale-2xl      : 32 !default;
+$fa-size-scale-2xs: 10 !default;
+$fa-size-scale-xs: 12 !default;
+$fa-size-scale-sm: 14 !default;
+$fa-size-scale-base: 16 !default;
+$fa-size-scale-lg: 20 !default;
+$fa-size-scale-xl: 24 !default;
+$fa-size-scale-2xl: 32 !default;
 
 $fa-sizes: (
-  "2xs"                 : $fa-size-scale-2xs,
-  "xs"                  : $fa-size-scale-xs,
-  "sm"                  : $fa-size-scale-sm,
-  "lg"                  : $fa-size-scale-lg,
-  "xl"                  : $fa-size-scale-xl,
-  "2xl"                 : $fa-size-scale-2xl
+  "2xs": $fa-size-scale-2xs,
+  "xs": $fa-size-scale-xs,
+  "sm": $fa-size-scale-sm,
+  "lg": $fa-size-scale-lg,
+  "xl": $fa-size-scale-xl,
+  "2xl": $fa-size-scale-2xl,
 ) !default;
 
-$fa-li-width            : 2em !default;
-$fa-li-margin           : $fa-li-width * fa-divide(5, 4) !default;
+$fa-li-width: 2em !default;
+$fa-li-margin: $fa-li-width * fa-divide(5, 4) !default;
 
-$fa-pull-margin         : .3em !default;
+$fa-pull-margin: 0.3em !default;
 
-$fa-primary-opacity     : 1 !default;
-$fa-secondary-opacity   : .4 !default;
+$fa-primary-opacity: 1 !default;
+$fa-secondary-opacity: 0.4 !default;
 
 $fa-stack-vertical-align: middle !default;
-$fa-stack-width         : ($fa-fw-width * 2) !default;
-$fa-stack-z-index       : auto !default;
+$fa-stack-width: ($fa-fw-width * 2) !default;
+$fa-stack-z-index: auto !default;
 
-$fa-font-display        : block !default;
-$fa-font-path           : "../webfonts" !default;
+$fa-font-display: block !default;
+$fa-font-path: "../webfonts" !default;
 
 $fa-var-0: \30;
 $fa-var-1: \31;
@@ -3350,9 +3350,11 @@ $fa-icons: (
   "sign-language": $fa-var-sign-language,
   "signing": $fa-var-signing,
   "hands-asl-interpreting": $fa-var-hands-asl-interpreting,
-  "american-sign-language-interpreting": $fa-var-american-sign-language-interpreting,
+  "american-sign-language-interpreting":
+    $fa-var-american-sign-language-interpreting,
   "asl-interpreting": $fa-var-asl-interpreting,
-  "hands-american-sign-language-interpreting": $fa-var-hands-american-sign-language-interpreting,
+  "hands-american-sign-language-interpreting":
+    $fa-var-hands-american-sign-language-interpreting,
   "hands-bound": $fa-var-hands-bound,
   "hands-bubbles": $fa-var-hands-bubbles,
   "hands-wash": $fa-var-hands-wash,
@@ -3447,7 +3449,8 @@ $fa-icons: (
   "house-fire": $fa-var-house-fire,
   "house-flag": $fa-var-house-flag,
   "house-flood-water": $fa-var-house-flood-water,
-  "house-flood-water-circle-arrow-right": $fa-var-house-flood-water-circle-arrow-right,
+  "house-flood-water-circle-arrow-right":
+    $fa-var-house-flood-water-circle-arrow-right,
   "house-laptop": $fa-var-house-laptop,
   "laptop-house": $fa-var-laptop-house,
   "house-lock": $fa-var-house-lock,
@@ -3780,7 +3783,8 @@ $fa-icons: (
   "walking": $fa-var-walking,
   "person-walking-arrow-loop-left": $fa-var-person-walking-arrow-loop-left,
   "person-walking-arrow-right": $fa-var-person-walking-arrow-right,
-  "person-walking-dashed-line-arrow-right": $fa-var-person-walking-dashed-line-arrow-right,
+  "person-walking-dashed-line-arrow-right":
+    $fa-var-person-walking-dashed-line-arrow-right,
   "person-walking-luggage": $fa-var-person-walking-luggage,
   "person-walking-with-cane": $fa-var-person-walking-with-cane,
   "blind": $fa-var-blind,
@@ -4269,7 +4273,8 @@ $fa-icons: (
   "arrows-alt": $fa-var-arrows-alt,
   "up-long": $fa-var-up-long,
   "long-arrow-alt-up": $fa-var-long-arrow-alt-up,
-  "up-right-and-down-left-from-center": $fa-var-up-right-and-down-left-from-center,
+  "up-right-and-down-left-from-center":
+    $fa-var-up-right-and-down-left-from-center,
   "expand-alt": $fa-var-expand-alt,
   "up-right-from-square": $fa-var-up-right-from-square,
   "external-link-alt": $fa-var-external-link-alt,
