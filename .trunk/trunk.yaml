@@ -28,5 +28,6 @@ lint:
         - static/**
         - public/**
         - themes/**
-        - layouts/**/*.html
+        - layouts/**
+        - partials/**
         - archetypes/**
