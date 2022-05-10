@@ -45,5 +45,5 @@ main() {
 }
 
 while true; do
-  MAIN "{@}"
+  main "{@}"
 done
