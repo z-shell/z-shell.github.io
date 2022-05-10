@@ -24,25 +24,15 @@ jobs:
         with:
           hugo-version: latest
           extended: true
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '16'
       - uses: actions/cache@v2
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
-            ${{ runner.os }}-node-
-      - run: npm ci
+            ${{ runner.os }}-hugomod-          
       - run: hugo --minify
-  deploy:
-    name: "🚀 Deploy"
-    if: ${{ github.ref == 'refs/heads/main' }}
-    uses: z-shell/.github/.github/workflows/deploy-call.yml@main
-    secrets:
-      personal_token: ${{ secrets.GH_PAT }}
-    with:
-      publish_branch: "gh-pages"
-      publish_dir: "public"
-      cname: "github.zshell.dev"
-    
+      - uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
