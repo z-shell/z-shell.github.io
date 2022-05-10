@@ -1,23 +1,29 @@
 ---
-name: '🚀 Deploy Call'
+name: '⭕ Trunk'
 on:
   push:
-    branches: [ main ]
+    branches: ['main']
     tags: ['v*.*.*']
-  workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize]
+  schedule:
+    - cron: 0 04 * * 1-5
+  workflow_dispatch: {}
 
 jobs:
-  deploy:
-    name: '🚀 Deploy'
-    uses: z-shell/.github/.github/workflows/deploy-call.yml@main
-    secrets:
-      personal_token: ${{ secrets.GH_PAT }}
-#     deploy_key: ''
-    with:
-#     external_repository: ''
-#     publish_branch: ''
-#     publish_dir: ''
-#     destination_dir: ''
-#     cname: ''
-     keep_files: true
-     allow_empty_commit: true
+  check-call:
+    name: '⚡'
+    uses: z-shell/.github/.github/workflows/trunk-call.yml@main
+#    secrets:
+#      trunk_token: ${{ secrets.TRUNK_TOKEN }}
+#    with:
+#      trunk_path: ''
+#      cache: ''
+#      upload-series: ''
+#      check-mode: ''
+#      arguments: ''
+#      call_arguments: 'npm i -g pnpm && pnpm i -r'
+#      shell: ''
+#      RUN_NODE: ''
+#      RUN_NODE_VERSION: ''
+#      RUN_NODE_ARGS: ''
