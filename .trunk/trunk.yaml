@@ -24,10 +24,7 @@ lint:
   ignore:
     - linters: [ALL]
       paths:
-        - lib/**
         - static/**
         - public/**
         - themes/**
-        - layouts/**
         - partials/**
-        - archetypes/**

@@ -14,16 +14,16 @@ jobs:
   check:
     name: "⚡"
     uses: z-shell/.github/.github/workflows/trunk-call.yml@main
-#    secrets:
-#      trunk_token: ${{ secrets.TRUNK_TOKEN }}
-#    with:
-#      trunk_path: ''
-#      cache: ''
-#      upload-series: ''
-#      check-mode: ''
-#      arguments: ''
-#      call_arguments: 'npm i -g pnpm && pnpm i -r'
-#      shell: ''
+    #    secrets:
+    #      trunk_token: ${{ secrets.TRUNK_TOKEN }}
+    with:
+      #      trunk_path: ''
+      #      cache: ''
+      #      upload-series: ''
+      check-mode: "all"
+      #      arguments: ''
+      call_arguments: "npm i -g pnpm && pnpm i -r"
+      shell: "zsh"
 #      RUN_NODE: ''
 #      RUN_NODE_VERSION: ''
 #      RUN_NODE_ARGS: ''
