@@ -24,17 +24,19 @@ jobs:
         with:
           hugo-version: latest
           extended: true
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
       - uses: actions/cache@v2
         with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-hugomod-
-      - name: Hugo Build
-        run: hugo --minify
-
-  deploy:
+            ${{ runner.os }}-node-
+      - run: npm ci
+      - run: hugo --minify
     name: "🚀 Deploy"
+    if: ${{ github.ref == 'refs/heads/main' }}
     uses: z-shell/.github/.github/workflows/deploy-call.yml@main
     secrets:
       personal_token: ${{ secrets.GH_PAT }}
