@@ -8,42 +8,43 @@ if [ -n "$(git status -s)" ]; then
 fi
 
 clean_tree() {
-  echo "Deleting old publication"
-  rm -rf public; mkdir public
+	echo "Deleting old publication"
+	rm -rf public
+	mkdir public
 
-  git worktree prune
-  rm -rf .git/worktrees/public/
+	git worktree prune
+	rm -rf .git/worktrees/public/
 
-  echo "Checking out gh-pages branch into public"
-  git worktree add -B gh-pages public origin/gh-pages
+	echo "Checking out gh-pages branch into public"
+	git worktree add -B gh-pages public origin/gh-pages
 
-  echo "Removing existing files"
-  rm -rf public/*
-  return 0
+	echo "Removing existing files"
+	rm -rf public/*
+	return 0
 }
 
 make_new() {
-  echo "Generating site"
-  env HUGO_ENV="production" hugo -t github-style --minify
-  return 0
+	echo "Generating site"
+	env HUGO_ENV="production" hugo -t github-style --minify
+	return 0
 }
 
 publish_site() {
-  echo "Updating gh-pages branch"
-  cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+	echo "Updating gh-pages branch"
+	cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
-  echo "Pushing to github"
-  git push --all
-  return 0
+	echo "Pushing to github"
+	git push --all
+	return 0
 }
 
 main() {
-  clean_tree
-  make_new
-  publish_site
-  exit 0
+	clean_tree
+	make_new
+	publish_site
+	exit 0
 }
 
 while true; do
-  main "{@}"
+	main "{@}"
 done

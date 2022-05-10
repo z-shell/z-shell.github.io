@@ -27,4 +27,7 @@ lint:
         - static/**
         - public/**
         - themes/**
+    - linters: [prettier]
+      paths:
+        - layouts/**
         - partials/**
