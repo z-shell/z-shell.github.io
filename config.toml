@@ -1,6 +1,6 @@
 baseURL = "https://github.zshell.dev"
 languageCode = "en"
-title = "❮ ZI ❯"
+title = "❮ Z-Shell ZI ❯"
 theme = "github-style"
 googleAnalytics = ""
 pygmentsCodeFences = true
@@ -18,7 +18,7 @@ description = "A Swiss Army Knife for Zsh Unix shell, designed to glue everythin
 email = "team@zshell.dev"
 url = "https://github.zshell.dev"
 keywords = "zsh, github, toolchain"
-rss = true
+rss = false
 lastmod = true
 userStatusEmoji = ""
 favicon = "images/avatar.png"
