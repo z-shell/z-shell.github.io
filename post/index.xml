@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ❮ Z-Shell ZI ❯</title><link>https://github.zshell.dev/post/</link><description>Recent content in Posts on ❮ Z-Shell ZI ❯</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 May 2022 08:03:03 +0100</lastBuildDate><atom:link href="https://github.zshell.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Print</title><link>https://github.zshell.dev/post/zsh/commands/print_cmd/</link><pubDate>Tue, 10 May 2022 08:03:03 +0100</pubDate><guid>https://github.zshell.dev/post/zsh/commands/print_cmd/</guid><description>Zsh — print command examples ( with help document ) print is zsh law layer command.
+For example it probably build zle command behaviour.
+If you master it you will get so beautifule zsh style.
+Examples Format command [-option] ( formal or non formal — remembering name )
+print -a ( align ) Print arguments with the column incrementing first. Only useful with the -c and -C options. Outputs indented</description></item></channel></rss>
