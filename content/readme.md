@@ -1,5 +1,4 @@
-
-![LOGO_GIT](https://github.com/z-shell/.github/raw/main/profile/img/z_git.png#center) 
+![LOGO_GIT](https://github.com/z-shell/.github/raw/main/profile/img/z_git.png#center)
 
 ![Metrics](https://github.zshell.dev/.github/metrics.svg#center)
 
