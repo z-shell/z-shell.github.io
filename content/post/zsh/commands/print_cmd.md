@@ -1,7 +1,7 @@
 ---
 title: "Print"
 date: 2022-05-10T08:03:03+01:00
-draft: false
+draft: true
 ---
 
 # Zsh — print command examples ( with help document )
