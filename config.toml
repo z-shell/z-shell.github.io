@@ -43,7 +43,7 @@ href = "https://github.com/z-shell"
 icon = "https://github.com/z-shell.png"
 [[params.links]]
 title = "digital-clouds"
-href = "https://github,com/digital-clouds"
+href = "https://github.com/digital-clouds"
 icon = "https://github.com/digital-clouds.png"
 #[[params.links]]
 #title = "ss-o"
