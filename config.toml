@@ -2,7 +2,7 @@ baseURL = "https://github.zshell.dev"
 languageCode = "en"
 title = "❮ Z-Shell ZI ❯"
 theme = "github-style"
-googleAnalytics = ""
+googleAnalytics = "G-4R9S46N2LB"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
