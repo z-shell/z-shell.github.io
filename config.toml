@@ -8,7 +8,7 @@ pygmentsUseClasses = true
 
 [params]
 author = "Z-Shell Community"
-description = "A Swiss Army Knife for Zsh - Unix shell. Designed to glue everything together to have a toolchain that works for us."
+description = "A Swiss army knife for Zsh"
 #  github = "z-shell"
 #  facebook = ""
 #  twitter = "zshell_zi"
