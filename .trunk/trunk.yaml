@@ -1,23 +1,25 @@
 version: 0.1
 cli:
-  version: 1.4.0
+  version: 1.6.1
 plugins:
   sources:
     - id: trunk
-      ref: v0.0.8
+      ref: v0.0.13
       uri: https://github.com/trunk-io/plugins
 lint:
+  disabled:
+    - yamllint
   enabled:
-    - git-diff-check
-    - shfmt@3.5.0
-    - taplo@0.7.0
-    - markdownlint@0.33.0
-    - svgo@3.0.2
     - actionlint@1.6.23
-    - shellcheck@0.9.0
-    - gitleaks@8.15.3
-    - prettier@2.8.3
+    - git-diff-check
+    - gitleaks@8.16.1
+    - markdownlint@0.33.0
     - oxipng@8.0.0
+    - prettier@2.8.4
+    - shellcheck@0.9.0
+    - shfmt@3.5.0
+    - svgo@3.0.2
+    - taplo@0.7.0
   ignore:
     - linters: [ALL]
       paths:
@@ -34,8 +36,9 @@ lint:
         - content/readme.md
 runtimes:
   enabled:
-    - go@1.18.3
+    - go@1.19.5
     - node@18.12.1
+    - python@3.10.8
 actions:
   enabled:
     - trunk-announce

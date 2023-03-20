@@ -1,9 +1,9 @@
-[![LOGO_GIT](https://github.com/z-shell/.github/raw/main/profile/img/z_git.png#center)](https://github.com/z-shell)
+[![LOGO#center](https://github.com/z-shell/.github/raw/main/profile/img/branch_box.png#max-size80)](https://www.zshell.dev)
 
-[![Metrics](https://github.zshell.dev/.github/plugin/metrics.svg#center)](https://github.com/z-shell)
+[![Metrics#center](https://raw.githubusercontent.com/z-shell/.github/main/metrics/plugin/metrics.svg#size80)](https://github.com/z-shell)
 
-[![Projects](https://github.zshell.dev/.github/plugin/projects/projects.svg#center)](https://github.com/orgs/z-shell/projects)
+[![Repositories#center](https://raw.githubusercontent.com/z-shell/.github/main/metrics/plugin/repositories_metrics.svg#size80)](https://github.com/orgs/z-shell/repositories)
 
-[![Followup](https://github.zshell.dev/.github/plugin/followup/followup.svg#center)](https://github.com/orgs/z-shell/projects)
+[![Followup#center](https://github.zshell.dev/.github/plugin/followup/followup.svg#size80)](https://github.com/orgs/z-shell/projects)
 
-[![Translations](https://badges.awesome-crowdin.com/translation-200015146-2.png#center)](https://translate.zshell.dev)
+[![Translations#center](https://badges.awesome-crowdin.com/translation-200015146-2.png#max-size80)](https://translate.zshell.dev)

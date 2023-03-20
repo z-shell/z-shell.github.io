@@ -2,25 +2,22 @@ baseURL = "https://github.zshell.dev"
 languageCode = "en"
 title = "❮ Z-Shell ❯"
 theme = "github-style"
-googleAnalytics = "G-4R9S46N2LB"
+#googleAnalytics = "G-4R9S46N2LB"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
 author = "Z-Shell Community"
 description = "A Swiss army knife for Zsh"
-#  github = "z-shell"
-#  facebook = ""
-#  twitter = "zshell_zi"
-#  linkedin = "ss-o"
-#  instagram = ""
-#  tumblr = ""
+github = "z-shell"
+twitter = "zshell_zi"
 email = "team@zshell.dev"
+matrix = "#zshell:matrix.org"
 url = "https://www.zshell.dev"
 keywords = "zsh, github, toolchain"
-rss = false
+rss = true
 lastmod = true
-userStatusEmoji = ""
+userStatusEmoji = "🧙‍♂️"
 favicon = "images/avatar.png"
 location = "United Kingdom"
 enableGitalk = false
@@ -37,14 +34,15 @@ enableGitalk = false
 # pagerDirection = "last"
 # createIssueManually = false
 # distractionFreeMode = false
-[[params.links]]
-title = "Z-Shell"
-href = "https://github.com/z-shell"
-icon = "https://github.com/z-shell.png"
-[[params.links]]
-title = "digital-clouds"
-href = "https://github.com/digital-clouds"
-icon = "https://github.com/digital-clouds.png"
+
+#[[params.links]]
+#title = "Z-Shell"
+#href = "https://github.com/z-shell"
+#icon = "images/logo.png"
+#[[params.links]]
+#title = "digital-clouds"
+#href = "https://github.com/digital-clouds"
+#icon = "https://github.com/digital-clouds.png"
 #[[params.links]]
 #title = "ss-o"
 #href = "https://github,com/ss-o"

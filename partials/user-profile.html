@@ -132,6 +132,12 @@
             </a>
             {{ end }}
 
+            {{ if .Site.Params.matrix}}
+            <a style="margin: 0 10px 10px 0;" href="https://matrix.to/#/{{ .Site.Params.matrix }}">
+              <img alt="@matrix" width="32" height="32" src="{{ " images/icons/png/matrix-light.png" | absURL }}" class="avatar">
+            </a>
+            {{ end }}
+
             {{ if .Site.Params.linkedin }}
             <a style="margin: 0 10px 10px 0;" href="https://linkedin.com/in/{{ .Site.Params.linkedin }}">
               <img alt="@linkedin" width="32" height="32" src="{{ " images/linkedin.png" | absURL }}" class="avatar">

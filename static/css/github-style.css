@@ -10,8 +10,8 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  padding-left: 32px !important;
-  padding-right: 32px !important;
+  padding-left: 32px!important;
+  padding-right: 32px!important;
   z-index: 32;
   padding: 16px;
   font-size: 14px;
@@ -39,7 +39,7 @@ body {
 .Header-search {
   max-width: 272px;
   width: 100%;
-  transition: 0.2s ease-in-out;
+  transition: .2s ease-in-out;
   transition-property: max-width, padding-bottom, padding-top;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .Header-search-label:focus-within {
-  background-color: hsla(0, 0%, 100%, 0.175);
+  background-color: hsla(0, 0%, 100%, .175);
   border-color: var(--color-state-focus-border);
   outline: none;
 }
@@ -115,7 +115,7 @@ body {
   user-select: none;
 }
 
-.details-reset > summary {
+.details-reset>summary {
   outline: none;
 }
 
@@ -159,28 +159,112 @@ body {
 
 #table-of-contents > nav ul > li {
   margin-left: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
 
 #table-of-contents > nav > ul > li {
   margin-left: 0;
 }
 
+img[src$="#max-size100"] {
+  display: inline;
+  max-width: 100%;
+  height: auto;
+}
+
+img[src$="#max-size80"] {
+  display: inline;
+  max-width: 80%;
+  height: auto;
+}
+
+img[src$="#max-size60"] {
+  display: inline;
+  max-width: 60%;
+  height: auto;
+}
+
+img[src$="#max-size40"] {
+  display: inline;
+  max-width: 40%;
+  height: auto;
+}
+
+img[src$="#max-size20"] {
+  display: inline;
+  max-width: 20%;
+  height: auto;
+}
+
+img[src$="#size100"] {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+img[src$="#size80"] {
+  width: 80%;
+  height: auto;
+}
+
+img[src$="#size60"] {
+  display: inline;
+  width: 60%;
+  height: auto;
+}
+
+img[src$="#size40"] {
+  display: inline;
+  width: 40%;
+  height: auto;
+}
+
+img[src$="#size20"] {
+  display: inline;
+  width: 20%;
+  height: auto;
+}
+
+img[alt$="#center"] {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  padding: 0 0 0 0;
+}
+
+img[alt$="#left"] {
+  display: flex;
+  float: left;
+  align-items: left;
+  text-align: left;
+  padding: 0 0 0 0;
+  margin: 0.7rem 0.7rem 0.7rem 0;
+}
+
+img[alt$="#right"] {
+  display: flex;
+  float: right;
+  align-items: right;
+  text-align: right;
+  margin: 0.7rem 0 0.7rem 0.7rem;
+  padding: 0 0 0 0;
+}
+
 @media (max-width: 768px) {
   .Header {
-    padding-left: 24px !important;
-    padding-right: 24px !important;
+    padding-left: 24px!important;
+    padding-right: 24px!important;
   }
 }
 
 @media (max-width: 480px) {
   .Header {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    padding-left: 16px!important;
+    padding-right: 16px!important;
   }
   .mobile-none {
-    display: none !important;
+    display: none!important;
   }
   .Header-search {
     max-width: 100%;
@@ -189,20 +273,4 @@ body {
 
 .pinned-item-desc img {
   max-width: 100%;
-}
-
-img[src$="#center"] {
-  display: block;
-  margin: 0.7rem auto;
-  width: 90%;
-}
-
-img[src$="#floatleft"] {
-  float: left;
-  margin: 0.7rem;
-}
-
-img[src$="#floatright"] {
-  float: right;
-  margin: 0.7rem;
 }
