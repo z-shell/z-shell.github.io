@@ -13,4 +13,4 @@ on:
 jobs:
   check:
     name: "⚡"
-    uses: z-shell/.github/.github/workflows/trunk.yml@main
+    uses: z-shell/.github/.github/workflows/trunk.yml@8ee041623cd5a2892887357ea9f0fb443ff3d2b4 # main
